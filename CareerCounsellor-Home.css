@@ -1,5 +1,5 @@
 body{
-    background-image: url("home.jpg");
+    background-image: url("new_home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,6 +66,26 @@ body{
         #para{
             padding-left: 1.2vw;
             color: rgb(255, 255, 255);
+        }
+    }
+
+    #opt_container{
+        box-sizing: border-box;
+        justify-content: center;
+        justify-items: center;
+        background-color: rgb(134, 238, 238);
+        #container{
+            display: flex;
+            flex-direction: row;
+            column-gap: 2vw;
+            .opt{
+                box-sizing: border-box;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            
         }
     }
 }
